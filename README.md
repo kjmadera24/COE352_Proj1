@@ -1,6 +1,15 @@
 # COE352_Proj1
 This repository is for my COE352 project 1 making an SVD callable function and a user-input function for calculating a spring-mass system!!
 
+## Table of Contents
+1. Description
+2. Requirements
+3. Usage
+4. Functions
+    5. Function: calc_SV
+    6. Function: TSF
+    7. Function: calc_svd
+
 ## Proj1_pt1.py
 
 ### Description <a name="description"></a>
@@ -15,7 +24,7 @@ Heres an example [[3,2,2],[2,3,-2]]
     
 ### Functions <a name="functions"></a>
 
-#### calc_SV <a name="function-calc_sv"></a>
+#### Function: calc_SV <a name="function-calc_sv"></a>
 This function calculates the singular values from the inputted eigenvalues.
 
 ##### Parameters:
@@ -24,7 +33,7 @@ EigVals: The list of eigenvalues calulated in the calc_svd function.
 ##### Returns:
 SnglrMtrx: The list of singular values.
 
-#### TSF <a name="function-tsf"></a>
+#### Function: TSF <a name="function-tsf"></a>
 This function performs truncation and sign flipping to ensure that the singular vectors are aligned correctly.
 
 ##### Parameters:
@@ -36,7 +45,7 @@ This function performs truncation and sign flipping to ensure that the singular 
 ##### Returns:
 * V: The updated V matrix with corrected signs.
 
-#### calc_svd <a name="function-calc_svd"></a>
+#### Function: calc_svd <a name="function-calc_svd"></a>
 This is the main function that calculates the SVD of the input matrix.
 
 ##### Parameters:
@@ -48,3 +57,5 @@ This is the main function that calculates the SVD of the input matrix.
 * mtrxV: Right singular vectors.
 * CndtnK: Condition number of the matrix.
 * invA: Inverse of the matrix (if it exists).
+
+## Proj1_pt2.py
