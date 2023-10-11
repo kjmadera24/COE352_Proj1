@@ -11,8 +11,27 @@ SVD is a fundamental linear algebra technique used in data analysis, dimensional
 ### Usage <a name="usage"></a>
 In order to use this code you need to download it and edit the InputMtrx variable at the bottom of the code to any matrix youd like to get the SVD from. The code reads this input as an array so, when inputting your matrix you must assure it is as an array of arrays 
 <p>
-as an example ` [[3,2,2],[2,3,-2]] `
-
+As an example, with this matrix ` [[3,2,2],[2,3,-2]] `
+You will get an output that looks something like this
+  <p>
+> Error: This matrix does not have an inverse
+> Your condition number is:  1.6666666666666665
+> Your matrix SVD is:
+> U:  [[ 0.70710678 -0.70710678]
+>     [ 0.70710678  0.70710678]]
+> S:  [[5. 0.]
+>      [0. 3.]]
+> VT: [[-7.07106781e-01 -7.07106781e-01 -4.55680392e-17]
+>     [-6.66666667e-01  6.66666667e-01  3.33333333e-01]
+>     [ 2.35702260e-01 -2.35702260e-01  9.42809042e-01]]
+> U:  [[-0.70710678 -0.70710678]
+>     [-0.70710678  0.70710678]]
+> S:  [5. 3.]
+> VT:  [[-7.07106781e-01 -7.07106781e-01 -6.47932334e-17]
+>      [-2.35702260e-01  2.35702260e-01 -9.42809042e-01]
+>      [-6.66666667e-01  6.66666667e-01  3.33333333e-01]]
+>
+    
 ### Functions <a name="functions"></a>
 
 #### Function: calc_SV <a name="function-calc_sv"></a>
