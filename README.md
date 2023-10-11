@@ -1,7 +1,6 @@
 # COE352_Proj1
 This repository is for my COE352 project 1 making an SVD callable function and a user-input function for calculating a spring-mass system!!
 
-<p>
 ## Proj1_pt1.py
 
 ### Description <a name="description"></a>
@@ -50,7 +49,6 @@ This is the main function that calculates the SVD of the input matrix.
 * CndtnK: Condition number of the matrix.
 * invA: Inverse of the matrix (if it exists).
 
-<p>
 ## Proj1_pt2.py
 
 ### Description <a name="description"></a>
