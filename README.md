@@ -13,7 +13,7 @@ In order to use this code you need to download it and edit the InputMtrx variabl
 <p>
 **As an example, with this matrix ` [[3,2,2],[2,3,-2]] `
   <p>
-**You will get an output that looks something like this**
+** You will get an output that looks something like this **
   <p>
     
 <p> Error: This matrix does not have an inverse </p>
