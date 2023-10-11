@@ -77,7 +77,7 @@ def calc_svd(InputMtrx):
     return(mtrxU, mtrxS, mtrxV, CndtnK, invA)
 
 
-InputMtrx = [[3,2,2],[2,3,-2]]
+InputMtrx = #Input your matrix here!!
 mtrxU, mtrxS, mtrxV, K, invA = calc_svd(InputMtrx)
 print("Your condition number is: " , K)
 print("Your matrix SVD is: " , "\n U: ", mtrxU, "\n S: ", mtrxS, "\n VT:", mtrxV.T)
