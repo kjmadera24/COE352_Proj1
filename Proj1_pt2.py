@@ -2,8 +2,8 @@
 import numpy as np
 import math
 import scipy
-import Proj_1_Final
-from Proj_1_Final import calc_svd
+import Proj1_pt1
+from Proj1_pt1 import calc_svd
 
 #Functions
 def calc_SpringMassSys(springNums, massNums, bndCond):
