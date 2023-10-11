@@ -18,7 +18,7 @@ In order to use this code you need to download it and edit the InputMtrx variabl
  Error: This matrix does not have an inverse </p>
  Your condition number is:  1.6666666666666665
  Your matrix SVD is:
- U:  [[ 0.70710678 -0.70710678]
+ <p> U:  [[ 0.70710678 -0.70710678]
      [ 0.70710678  0.70710678]]
  S:  [[5. 0.]
      [0. 3.]]
@@ -31,6 +31,7 @@ In order to use this code you need to download it and edit the InputMtrx variabl
  VT:  [[-7.07106781e-01 -7.07106781e-01 -6.47932334e-17]
       [-2.35702260e-01  2.35702260e-01 -9.42809042e-01]
       [-6.66666667e-01  6.66666667e-01  3.33333333e-01]]
+ </p>
     
 ### Functions <a name="functions"></a>
 
