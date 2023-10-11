@@ -1,15 +1,6 @@
 # COE352_Proj1
 This repository is for my COE352 project 1 making an SVD callable function and a user-input function for calculating a spring-mass system!!
 
-## Table of Contents
-markup: 1. Description
-2. Requirements
-3. Usage
-4. Functions
-    5. Function: calc_SV
-    6. Function: TSF
-    7. Function: calc_svd
-
 ## Proj1_pt1.py
 
 ### Description <a name="description"></a>
@@ -59,3 +50,27 @@ This is the main function that calculates the SVD of the input matrix.
 * invA: Inverse of the matrix (if it exists).
 
 ## Proj1_pt2.py
+
+### Description <a name="description"></a>
+This code is designed to analyze a spring-mass system and calculate various properties based on user-defined parameters. It leverages numerical techniques such as Singular Value Decomposition (SVD) to determine the equilibrium displacements, elongations, internal stresses, and the condition number of the system.
+
+### Usage <a name="usage"></a>
+In order to use this code you need to download it and run it in your terminal, where you will then be prompted to input the different specifications for your spring-mass system. You must input your characteristics as an array stating your spring constants, the masses, and boundary condition(respectfully).
+<p>
+Heres an example [[2,3,4], [1,2], 1]
+    
+### Functions <a name="functions"></a>
+
+#### Function: calc_SpringMassSys <a name="function-calc_springmasssys"></a>
+This function calculates the properties of the spring-mass system based on the input parameters.
+
+##### Parameters:
+* springNums: A list or array of spring constants.
+* massNums: A list or array of masses.
+* bndCond: The number of fixed ends (0, 1, or 2).
+
+##### Returns:
+* mtrxu: Equilibrium displacements.
+* deltaL: Elongations of each spring.
+* mtrxW: Internal stresses in each spring.
+* CndtnK: Condition number of the stiffness matrix.
