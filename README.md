@@ -28,19 +28,19 @@ SnglrMtrx: The list of singular values.
 This function performs truncation and sign flipping to ensure that the singular vectors are aligned correctly.
 
 ##### Parameters:
-A: The input matrix.
-V: Right singular vectors.
-U: Left singular vectors.
-EV: Eigenvalues.
+* A: The input matrix.
+* V: Right singular vectors.
+* U: Left singular vectors.
+* EV: Eigenvalues.
 
 ##### Returns:
-V: The updated V matrix with corrected signs.
+* V: The updated V matrix with corrected signs.
 
 #### calc_svd <a name="function-calc_svd"></a>
 This is the main function that calculates the SVD of the input matrix.
 
 ##### Parameters:
-InputMtrx: The input matrix to perform SVD on.
+* InputMtrx: The input matrix to perform SVD on.
 
 ##### Returns:
 * mtrxU: Left singular vectors.
