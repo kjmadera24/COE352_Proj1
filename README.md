@@ -13,9 +13,8 @@ In order to use this code you need to download it and edit the InputMtrx variabl
 <p>
 **As an example, with this matrix ` [[3,2,2],[2,3,-2]] `
   <p>
-You will get an output that looks something like this**
+**You will get an output that looks something like this**
   <p>
-> MTProj: Pulling from kamimadera24/iss_tracker
 > Error: This matrix does not have an inverse
 > Your condition number is:  1.6666666666666665
 > Your matrix SVD is:
