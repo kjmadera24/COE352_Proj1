@@ -6,9 +6,9 @@ This repository is for my COE352 project 1 making an SVD callable function and a
 2. Requirements
 3. Usage
 4. Functions
-    5. Function: calc_SV
-    6. Function: TSF
-    7. Function: calc_svd
+<p>    5. Function: calc_SV
+<p>    6. Function: TSF
+<p>    7. Function: calc_svd
 
 ## Proj1_pt1.py
 
