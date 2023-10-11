@@ -2,13 +2,13 @@
 This repository is for my COE352 project 1 making an SVD callable function and a user-input function for calculating a spring-mass system!!
 
 ## Table of Contents
-1. Description
+markup: 1. Description
 2. Requirements
 3. Usage
 4. Functions
-<p>    5. Function: calc_SV
-<p>    6. Function: TSF
-<p>    7. Function: calc_svd
+    5. Function: calc_SV
+    6. Function: TSF
+    7. Function: calc_svd
 
 ## Proj1_pt1.py
 
