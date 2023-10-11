@@ -8,10 +8,6 @@ from scipy.linalg import svd
 
 #Functions#
 def calc_SV(EigVals):
-    """
-    Calculating the Singular Values....
-    """
-
     SnglrMtrx = []
     size = np.size(EigVals)
 
@@ -23,10 +19,6 @@ def calc_SV(EigVals):
     return(SnglrMtrx)
 
 def TSF(A,V,U,EV):
-    """
-    Trahans sign checker
-    """
-
     AxV = A @ V
     diagEV = np.diag(EV)
     UxEV = U @ diagEV
@@ -36,10 +28,6 @@ def TSF(A,V,U,EV):
     return(V)
 
 def calc_svd(InputMtrx):
-    """
-    Richard Sucks
-    """
-
     #Basic matrix declarations
     mtrxA = InputMtrx
     mtrxAT = np.transpose(mtrxA)
@@ -94,6 +82,7 @@ mtrxU, mtrxS, mtrxV, K, invA = calc_svd(InputMtrx)
 print("Your condition number is: " , K)
 print("Your matrix SVD is: " , "\n U: ", mtrxU, "\n S: ", mtrxS, "\n VT:", mtrxV.T)
 
+#Checking my results with the built-in function
 U, s, VT = svd(InputMtrx)
 print("U: " , U)
 print("S: " , s)
